@@ -1,0 +1,22 @@
+﻿Build started 11/16/2015 12:22:04 PM.
+     1>Project "C:\Users\marrih152\Documents\Visual Studio 2013\Projects\Computer Graphics\Lab 2\Lab 2\Lab 2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\marrih152\Documents\Visual Studio 2013\glm" /I"C:\Users\marrih152\Documents\Visual Studio 2013\glew-1.11.0\include" /I"C:\Users\marrih152\Documents\Visual Studio 2013\SDL_image-1.2.12\include" /I"C:\Users\marrih152\Documents\Visual Studio 2013\SDL-1.2.15\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _CRT_SECURE_NO_WARNINGS /D USE_STANDARD_FILE_FUNCTIONS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /FR"x64\Release\\" /Gd /TP /errorReport:prompt "..\..\..\..\..\Computer Graphics\Labs\Lab 2\main.cc"
+         main.cc
+     1>..\..\..\..\..\Computer Graphics\Labs\Lab 2\main.cc(126): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\..\Computer Graphics\Labs\Lab 2\main.cc(305): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\..\..\..\Computer Graphics\Labs\Lab 2\main.cc(390): warning C4060: switch statement contains no 'case' or 'default' labels
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\marrih152\Documents\Visual Studio 2013\Projects\Computer Graphics\Lab 2\x64\Release\Lab 2.exe" /NOLOGO /LIBPATH:"C:\Users\marrih152\Documents\Visual Studio 2013\SDL-1.2.15\lib\x64" /LIBPATH:"C:\Users\marrih152\Documents\Visual Studio 2013\SDL_image-1.2.12\lib\x64" /LIBPATH:"C:\Users\marrih152\Documents\Visual Studio 2013\glew-1.11.0\lib\Release\x64" opengl32.lib glu32.lib SDL.lib SDL_image.lib SDLmain.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\marrih152\Documents\Visual Studio 2013\Projects\Computer Graphics\Lab 2\x64\Release\Lab 2.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\marrih152\Documents\Visual Studio 2013\Projects\Computer Graphics\Lab 2\x64\Release\Lab 2.lib" /MACHINE:X64 x64\Release\glUtil.obj
+         x64\Release\main.obj
+         Generating code
+     1>c:\users\marrih152\documents\computer graphics\labs\lab 2\main.cc(469): warning C4715: 'SDL_main' : not all control paths return a value
+         Finished generating code
+         Lab 2.vcxproj -> C:\Users\marrih152\Documents\Visual Studio 2013\Projects\Computer Graphics\Lab 2\x64\Release\Lab 2.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"C:\Users\marrih152\Documents\Visual Studio 2013\Projects\Computer Graphics\Lab 2\x64\Release\Lab 2.bsc" /n x64\Release\glUtil.sbr x64\Release\main.sbr
+     1>Done Building Project "C:\Users\marrih152\Documents\Visual Studio 2013\Projects\Computer Graphics\Lab 2\Lab 2\Lab 2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.66

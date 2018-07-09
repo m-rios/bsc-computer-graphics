@@ -1,0 +1,31 @@
+﻿Build started 12/14/2015 9:02:10 AM.
+     1>Project "C:\Users\marrih152\Documents\Visual Studio 2013\Projects\Computer Graphics\Lab 4\Lab 4\Lab 4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\marrih152\Documents\Visual Studio 2013\glm" /I"C:\Users\marrih152\Documents\Visual Studio 2013\glew-1.11.0\include" /I"C:\Users\marrih152\Documents\Visual Studio 2013\SDL_image-1.2.12\include" /I"C:\Users\marrih152\Documents\Visual Studio 2013\SDL-1.2.15\include" /Zi /nologo /W3 /WX- /sdl /Od /D _CRT_SECURE_NO_WARNINGS /D USE_STANDARD_FILE_FUNCTIONS /D _MBCS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "..\..\..\..\..\Computer Graphics\Labs\Lab 4\cone.cpp" "..\..\..\..\..\Computer Graphics\Labs\Lab 4\main.cc" "..\..\..\..\..\Computer Graphics\Labs\Lab 4\material.cc"
+         material.cc
+         main.cc
+     1>..\..\..\..\..\Computer Graphics\Labs\Lab 4\main.cc(89): warning C4101: 'i' : unreferenced local variable
+         cone.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\marrih152\Documents\Visual Studio 2013\Projects\Computer Graphics\Lab 4\x64\Debug\Lab 4.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\marrih152\Documents\Visual Studio 2013\SDL-1.2.15\lib\x64" /LIBPATH:"C:\Users\marrih152\Documents\Visual Studio 2013\SDL_image-1.2.12\lib\x64" /LIBPATH:"C:\Users\marrih152\Documents\Visual Studio 2013\glew-1.11.0\lib\Release\x64" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib SDL.lib SDL_image.lib SDLmain.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\marrih152\Documents\Visual Studio 2013\Projects\Computer Graphics\Lab 4\x64\Debug\Lab 4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\marrih152\Documents\Visual Studio 2013\Projects\Computer Graphics\Lab 4\x64\Debug\Lab 4.lib" /MACHINE:X64 x64\Debug\camera.obj
+         x64\Debug\cone.obj
+         x64\Debug\csg.obj
+         x64\Debug\light.obj
+         x64\Debug\main.obj
+         x64\Debug\material.obj
+         x64\Debug\noise.obj
+         x64\Debug\object.obj
+         x64\Debug\plane.obj
+         x64\Debug\raytracer.obj
+         x64\Debug\referenced.obj
+         x64\Debug\sphere.obj
+         x64\Debug\transform.obj
+         x64\Debug\vector.obj
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Lab 4.vcxproj -> C:\Users\marrih152\Documents\Visual Studio 2013\Projects\Computer Graphics\Lab 4\x64\Debug\Lab 4.exe
+     1>Done Building Project "C:\Users\marrih152\Documents\Visual Studio 2013\Projects\Computer Graphics\Lab 4\Lab 4\Lab 4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.06
